@@ -17,20 +17,26 @@ from colorama import Fore, Back, Style
 from opendrop.client import AirDropBrowser, AirDropClient
 from opendrop.config import AirDropConfig, AirDropReceiverFlags
 
-start_new_lines = '\n' * 10
+start_new_lines = '\n' * 5
 end_new_lines = '\n' * 100
-SENDER_NAME = 'Attacker 😈'
+SENDER_NAME = 'Satoshi Nakamoto'
 FILE_NAME = f"""
 {start_new_lines}
-⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 
-😈😈😈😈😈
 You can no longer use this device
-Go outside and play!
+💸💸💸
+Go and buy Bitcoin!
 
-⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+Learn more about bitcoin \n@ bit.ly/BitcoinThings
+
+Learn more about lightning \n@ bit.ly/LightningThings
+
+💸💸💸
+⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠
+
+3rd January, 2009 - THE TIMES:\n Chancellor on brink of second bailout for banks. 🔥🔥🔥️ ️ ️ ️ ️ ️ ️ ️ ️ ️
+️⚠️⚠️⚠️
 {end_new_lines}
-😈
 """
 
 rand = lambda: '{0:0{1}x}'.format(random.randint(0, 0xffffffffffff), 12)
